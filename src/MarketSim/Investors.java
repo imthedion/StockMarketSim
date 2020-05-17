@@ -34,7 +34,9 @@ public class Investors {
 	public void setBudget(int budget) {
 		this.budget = budget;
 	}
-
 	
+	public void printInv() {
+		System.out.println("Investor ID: " + getInvestorID() + "  ||  " + "Investor Name: " + getName() );
+	}
 	
 }

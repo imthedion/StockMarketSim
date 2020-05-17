@@ -2,11 +2,13 @@ package MarketSim;
 
 public class Companies {
 	
-	//ID
+	//info
 	private String coName;
 	private int companyID;
 	private int numberOfShares;
 	private int sharePrice;
+	
+	
 	
 	//Getters
 	public String getCoName() {
@@ -21,12 +23,17 @@ public class Companies {
 		return numberOfShares;
 	}
 	
+	public int getSharePrice() {
+		return sharePrice;
+	}
+	
+
+
+	//Setters
 	public void setCoName(String coName) {
 		this.coName = coName;
 	}
 	
-
-	//Setters
 	public void setCompanyID(int companyID) {
 		this.companyID = companyID;
 	}
@@ -35,14 +42,16 @@ public class Companies {
 		this.numberOfShares = numberOfShares;
 	}
 	
-	public int getSharePrice() {
-		return sharePrice;
-	}
-	
 	public void setSharePrice(int sharePrice) {
 		this.sharePrice = sharePrice;
 	}
 	
+
 	
+	
+	
+	public void printCompany() {
+		System.out.println("Company ID: " + getCompanyID() + " || " + "Company Name: " + getCoName());
+	}
 	
 }
