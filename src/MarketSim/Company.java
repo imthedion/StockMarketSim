@@ -1,6 +1,6 @@
 package MarketSim;
 
-public class Companies {
+public class Company {
 	
 	//info
 	private String coName;

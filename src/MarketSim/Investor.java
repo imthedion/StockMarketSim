@@ -1,6 +1,6 @@
 package MarketSim;
 
-public class Investors {
+public class Investor {
 
 	
 	//ID
